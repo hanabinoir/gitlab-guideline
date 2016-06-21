@@ -43,5 +43,5 @@ sudo apt install openssh-client
 	- Left as default
 
 - tortoiseGit:
-![features](Images/tortoisegit-setup-features.jpg) 
-Register for git 
+	- ![features](Images/tortoisegit-setup-features.jpg) 
+	- Register for git 
