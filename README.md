@@ -25,23 +25,23 @@ sudo apt install openssh-client
 - git:
 
 ![features](Images/git-setup-features.jpg) 
-Features to be installed
+..- Features to be installed
 
 ![env](Images/git-setup-env.jpg) 
 Git command-line setup
 
 ![ssh](Images/git-setup-ssh.jpg) 
-Use OpenSSH is recommanded in many tutorial, but it is tested to cause error on Windows 10, so that Tortoise Plink is used instead.
+..- Use OpenSSH is recommanded in many tutorial, but it is tested to cause error on Windows 10, so that Tortoise Plink is used instead.
 
 ![terminal](Images/git-setup-terminal.jpg) 
-Tested working
+..- Tested working
 
 ![line-ending](Images/git-setup-line-ending.jpg) 
-Recommanded
+..- Recommanded
 
 ![extra](Images/git-setup-extra.jpg) 
-Left as default
+..- Left as default
 
 - tortoiseGit:
 ![features](Images/tortoisegit-setup-features.jpg) 
-Register for git 
+..- Register for git 
