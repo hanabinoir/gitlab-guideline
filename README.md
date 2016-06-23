@@ -30,12 +30,12 @@ Check if the required packages are existing:
 ## Installation
 ### Ubuntu
 - Git:  
-```sh
+``` sh
 $ sudo apt-get update
 $ sudo apt-get install git
 ```
 - OpenSSH client:  
-```sh
+``` sh
 $ sudo apt install openssh-client
 ```
 
