@@ -6,7 +6,7 @@
     3-1. [git config](#git-config)  
     3-2. [ssh key](#ssh-key)  
     3-3. [Gitlab Account](#gitlab-account)  
-4. [Repository](#repository) 
+4. [Repository](#repository)  
     5-1. [Repository Creation](#repository-creation)  
     5-2. [Update Remote](#update-remote)  
     5-3. [Update Local](#update-local)  
