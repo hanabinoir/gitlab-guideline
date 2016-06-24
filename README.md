@@ -64,15 +64,45 @@ $ sudo apt install openssh-client
     ![features](Images/tortoisegit-setup-features.jpg)
 
 ## Configuration
-### git config
-### ssh key
-
-## GitLab Account
+### git config  
+For __Linux__, use those commands on terminal;  
+For __Windows__, those can be applied on Git Bash:
+``` sh
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+```
+The config info is stored in _$HOME/.gitconfig_:  
+```
+[user]
+	email = example@email.com
+	name = username
+```
+The location of $HOME/.gitconfig:  
+- For Linux: ```~/.giconfig``` or ```/home/your-username/.gitconfig```
+- For Windows: ```C:/Users/Your-Username/.gitconfig```  
+  
+### ssh key  
+For __Linux__ and __Git Bash__ on Windows:  
+##### To generate:  
+```$ ssh-keygen -t rsa -C "a-title-your-can-remember"```  
+  
+The default location to save the ssh key: ```$HOME/.ssh/id_rsa```  
+  
+##### To catch:  
+```$ cat ~/.ssh/id_rsa.pub```  
+  
+##### To add:  
+```$ ssh-add ~/.ssh/id_rsa```  
+  
+There is one more step for Windows as if you use TortoiseGit with PUTTY Private Key (.ppk):  
+TBC  
+  
+## GitLab Account  
 
 ## Usage
 ### Repository
-### Clone and pull
 ### Commit and push
+### Permission
 ### Other
 
 ## References
